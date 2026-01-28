@@ -59,31 +59,33 @@ All datasets were harmonized to a common coordinate reference system and preproc
 
 The methodological workflow comprises the following stages:
 
-### 6.1 Data Preprocessing
+## 6.1 Data Preprocessing
 - Cleaning and validation of billing and anomaly records
 - Spatial data projection and alignment
 - Feature engineering and aggregation
 
-### 6.2 Spatial Analysis
+## 6.2 Spatial Analysis
 - Density analysis to identify clustering patterns
 - Proximity analysis to assess infrastructure influence
 - Grid-based spatial aggregation
 
-### 6.3 Machine Learning Modelling
+## 6.3 Machine Learning Modelling
 - Feature selection and normalization
 - Model training and tuning
+- Ensemble performance
 - Performance evaluation and validation
 
-### 6.4 Visualization
+## 6.4 Visualization
 - Mapping observed and predicted theft hotspots
 - GIS-based spatial interpretation of results
+- WebGIS integration
 
 ---
 
 # 7. Results
 
 The results indicate clear spatial clustering of electricity theft incidents. Proximity to electricity infrastructure significantly influences theft likelihood, and machine learning models demonstrate improved predictive capability when spatial features are incorporated. Predicted hotspots provide actionable insights for targeted inspection and enforcement.
-
+The resulting model was embedded in a WebGIS dashboard for monitoring with potential application to near real time monitoring.
 ---
 
 # 8. Conclusions
@@ -92,5 +94,4 @@ This study demonstrates the effectiveness of integrating GIS and machine learnin
 
 ---
 
-## 9. Repository Structure
 
